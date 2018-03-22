@@ -1,2 +1,2 @@
 var playlist = {
-  SherylCrow: ""}
+  SherylCrow: "All I wanna Do"}
