@@ -6,8 +6,7 @@ var playlist = {
 //limitations on playlist: using playlist{} we can only look up song names (values) by artist (keys)
 
 function updatePlaylist(playlist,artist,song){
-  playlist.artist = song;
-  return playlist;
+  return Object.assign({},playlist, {[artist]: song});
 }
 
 function removeFromPlaylist(playlist,artist){
